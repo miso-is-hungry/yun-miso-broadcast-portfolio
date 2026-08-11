@@ -56,3 +56,24 @@
 .contact a,.contact strong{font-size:15px}
 .contact a:last-child{color:var(--muted)}
 @media(max-width:760px){.hero,.section,footer{padding-top:82px;padding-bottom:82px}h1{font-size:40px;letter-spacing:-.045em}.eyebrow{font-size:13px}.meta{font-size:12px}.hero-copy{font-size:17px;line-height:1.8}.hero-break{display:none}.focus-row span,.tools span{font-size:13px}.content-gallery,.community-story,.field-project{grid-template-columns:1fr}.role-grid,.role-grid--three,.process-row{grid-template-columns:1fr 1fr}.community-phases{grid-template-columns:1fr}.community-phases i{transform:rotate(90deg);justify-self:center}.ott-gallery{grid-template-columns:1fr}.ott-gallery figure:first-child{grid-column:auto}.ott-gallery img,.ott-gallery figure:first-child img{height:auto}.content-gallery img,.production .image-strip img{height:auto}.patent-photo img{max-height:none}.project p:not(.meta),.project li,.career-grid li{font-size:15px}.actions{flex-direction:column}.actions a{display:block;width:100%;padding:12px 14px;text-align:center;font-size:14px}.content-project .project-copy{max-width:100%}.intro-heading,.contact-heading{font-size:clamp(25px,7.4vw,34px)}.intro-heading span,.contact-heading span{white-space:normal}}
+
+/* Readability and portfolio-detail refinements */
+h1{line-height:1.16;letter-spacing:-.032em;margin-top:28px;margin-bottom:32px}
+h2{line-height:1.36;letter-spacing:-.032em;margin-bottom:42px}
+.hero-copy{max-width:720px}
+.scope-note{margin:22px 0 0!important;padding-top:18px;border-top:1px solid var(--line);font-size:14px!important}
+.skill-detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}
+.skill-detail-grid article{display:flex;flex-direction:column;gap:8px;padding:21px;border:1px solid var(--line);border-radius:15px;background:var(--panel2)}
+.skill-detail-grid b{color:var(--text);font-size:14px}
+.skill-detail-grid span{color:var(--muted);font-size:14px;line-height:1.7}
+.project p:not(.meta){margin-bottom:22px}
+.project h3{letter-spacing:-.025em}
+.career-grid article p{color:var(--muted);font-size:15px;line-height:1.75;margin-bottom:18px}
+
+@media(max-width:760px){
+  h1{font-size:40px;line-height:1.22;letter-spacing:-.018em}
+  .hero-copy{line-height:1.85}
+  .role-grid,.role-grid--three{grid-template-columns:1fr}
+  .process-row,.skill-detail-grid{grid-template-columns:1fr 1fr}
+  .intro-heading,.contact-heading{letter-spacing:-.018em}
+}
