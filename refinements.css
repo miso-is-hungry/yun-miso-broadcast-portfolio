@@ -69,6 +69,7 @@ h2{line-height:1.36;letter-spacing:-.032em;margin-bottom:42px}
 .project p:not(.meta){margin-bottom:22px}
 .project h3{letter-spacing:-.025em}
 .career-grid article p{color:var(--muted);font-size:15px;line-height:1.75;margin-bottom:18px}
+.role-grid span,.community-phases span,.field-project .list span,.mini-grid span,.process-row span,.skill-detail-grid span{word-break:keep-all;overflow-wrap:normal}
 
 @media(max-width:760px){
   h1{font-size:40px;line-height:1.22;letter-spacing:-.018em}
